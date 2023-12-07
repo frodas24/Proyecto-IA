@@ -225,11 +225,11 @@ def login():
     contra_entrada2 = Entry(pantalla2, textvariable = verificacion_contra)
     contra_entrada2.pack()
     Label(pantalla2, text = "").pack()
-    Button(pantalla2, text = "Inicio de Sesion Tradicional", width = 20, height = 1, command = verificacion_login).pack()
+    Button(pantalla2, text = "Inicio de Sesión Tradicional",bg = "#bfff91" , width = 20, height = 1, command = verificacion_login).pack()
 
     #------------ Vamos a crear el boton para hacer el login facial --------------------
     Label(pantalla2, text = "").pack()
-    Button(pantalla2, text = "Inicio de Sesion Facial", width = 20, height = 1, command = login_facial).pack()
+    Button(pantalla2, text = "Inicio de Sesión  Facial",bg = "#bfff91" , width = 20, height = 1, command = login_facial).pack()
         
 #------------------------- Funcion de nuestra pantalla principal ------------------------------------------------
     
