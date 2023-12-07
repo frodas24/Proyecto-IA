@@ -234,11 +234,11 @@ def login():
 #------------------------- Funcion de nuestra pantalla principal ------------------------------------------------
     
 def pantalla_principal():
-    global pantalla          #Globalizamos la variable para usarla en otras funciones
+    global pantalla           
     pantalla = Tk()
-    pantalla.geometry("300x250")  #Asignamos el tamaño de la ventana 
-    pantalla.title("Aprende e Ingenia")       #Asignamos el titulo de la pantalla
-    Label(text = "Login Inteligente", bg = "gray", width = "300", height = "2", font = ("Verdana", 13)).pack() #Asignamos caracteristicas de la ventana
+    pantalla.geometry("350x300")  
+    pantalla.title("Desbloqueo inteligente")       
+    Label(text = "Login Inteligente", bg = "#59a87d", width = "300", height = "2", font = ("Verdana", 13)).pack() #Asignamos caracteristicas de la ventana
     
 #------------------------- Vamos a Crear los Botones ------------------------------------------------------
     
