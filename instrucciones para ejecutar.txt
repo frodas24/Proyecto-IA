@@ -1,7 +1,7 @@
 Para ejecutar:
 1. Instalar python
-2. Instalar las librerias opencv, matplotlib, mtcnn y numpy
+2. Instalar las librerias opencv, matplotlib, mtcnn y numpy(usar libreria de tensorflow)
 3. Para hacerlo funcionar, iniciarlo en el shell de python
-4. Una vvez en el shell, seleccionar run o presionar f5
+4. Una vez en el shell, seleccionar run o presionar f5
 
 
