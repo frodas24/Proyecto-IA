@@ -242,10 +242,11 @@ def pantalla_principal():
     
 #------------------------- Vamos a Crear los Botones ------------------------------------------------------
     
-    Label(text = "").pack()  #Creamos el espacio entre el titulo y el primer boton
-    Button(text = "Iniciar Sesion", height = "2", width = "30", command = login).pack()
-    Label(text = "").pack() #Creamos el espacio entre el primer boton y el segundo boton
-    Button(text = "Registro", height = "2", width = "30", command = registro).pack()
+    Label(text = "").pack()  
+    Button(text = "Iniciar Sesión " ,bg = "#27cd39", height = "2", width = "30", command = login).pack()
+    Label(text = "").pack() 
+    Button(text = "Registro",bg = "#27cd39" ,height = "2", width = "30", command = registro).pack()
+
 
     pantalla.mainloop()
 
